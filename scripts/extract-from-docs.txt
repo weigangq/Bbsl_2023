@@ -1,0 +1,2 @@
+to convert docx to txt: unoconv -f txt foo.docx (will generate a foo.txt)
+to remvoe UTF-8 mark in the head line: sed '1s/^\xEF\xBB\xBF//'
